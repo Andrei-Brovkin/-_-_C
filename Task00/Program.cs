@@ -1,2 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// 0. Демонстрация решения 
+// Напишите программу, которая 
+// 1. на вход приниммает  число 
+// 2. Выдает его квадрат
+// 3. Вывод результата
+
+
+Console.Write("ведите целое число  ");
+int number = Convert.ToInt32(Console.ReadLine());
+int square = number *number;
+Console.WriteLine($"Квадрат числа {number} ={square}");
+
+bool b = number == square;
+if(number != square);
+{
+
+}
